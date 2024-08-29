@@ -1,0 +1,8 @@
+Package: gtk3
+Version: 3.24.38
+Port-Version: 1
+Depends: atk, cairo, gdk-pixbuf, gettext, glib, libepoxy, pango, vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: fc8645f9472defa70e980b43e8a49bfe1b4c1c7524c7cfa693acc34e9b3e06cf
+Description: Portable library for creating graphical user interfaces.

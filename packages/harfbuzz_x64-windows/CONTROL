@@ -1,0 +1,22 @@
+Package: harfbuzz
+Version: 8.5.0
+Depends: vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 8d225f1cd73cbe15835d2502420b0eae367b2a339042c8a6e8234c9a7916bb2e
+Description: HarfBuzz OpenType text shaping engine
+Default-Features: freetype
+
+Package: harfbuzz
+Feature: freetype
+Depends: freetype
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable FreeType support
+
+Package: harfbuzz
+Feature: glib
+Depends: glib
+Architecture: x64-windows
+Multi-Arch: same
+Description: Glib Unicode callbacks support

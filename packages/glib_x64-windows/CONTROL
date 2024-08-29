@@ -1,0 +1,8 @@
+Package: glib
+Version: 2.78.4
+Port-Version: 1
+Depends: dirent, gettext, libffi, libiconv, pcre2, vcpkg-tool-meson, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a147ba21be459a95b1aa8e5738b516aac7d79a8f71d4ed8fe822de9be5eb3810
+Description: Portable, general-purpose utility library.

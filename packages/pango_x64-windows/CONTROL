@@ -1,0 +1,8 @@
+Package: pango
+Version: 1.50.14
+Port-Version: 4
+Depends: cairo, fontconfig, freetype, fribidi, gettext, glib, harfbuzz, vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 5c59421bd7053c0fb60d71c5b8e7c502fc8ee89c5ebe3dba7b8d21118c00225d
+Description: Text and font handling library.

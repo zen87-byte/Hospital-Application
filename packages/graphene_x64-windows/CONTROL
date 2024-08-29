@@ -1,0 +1,8 @@
+Package: graphene
+Version: 1.10.8
+Port-Version: 2
+Depends: gettext, glib, vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 61bbea0b9ea70c6423d514c86892bba99c2a27bd43dbfba9bf623afe063e4ec8
+Description: A thin layer of types for graphic libraries.

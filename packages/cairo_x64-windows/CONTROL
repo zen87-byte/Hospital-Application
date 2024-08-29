@@ -1,0 +1,30 @@
+Package: cairo
+Version: 1.18.0
+Port-Version: 1
+Depends: dirent, expat, libpng, pixman, pthread, vcpkg-tool-meson, zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7d4d820d28b8913a3a7ea288a91c4ac2b8eb29efca7616b6318197d48005c72b
+Description: Cairo is a 2D graphics library with support for multiple output devices. Currently supported output targets include the X Window System (via both Xlib and XCB), Quartz, Win32, image buffers, PostScript, PDF, and SVG file output. Experimental backends include OpenGL, BeOS, OS/2, and DirectFB.
+Default-Features: fontconfig, freetype
+
+Package: cairo
+Feature: fontconfig
+Depends: fontconfig
+Architecture: x64-windows
+Multi-Arch: same
+Description: build with fontconfig
+
+Package: cairo
+Feature: freetype
+Depends: freetype
+Architecture: x64-windows
+Multi-Arch: same
+Description: use the freetype font backend
+
+Package: cairo
+Feature: gobject
+Depends: glib
+Architecture: x64-windows
+Multi-Arch: same
+Description: build gobject module

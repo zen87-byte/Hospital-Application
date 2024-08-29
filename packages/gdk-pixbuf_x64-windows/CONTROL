@@ -1,0 +1,29 @@
+Package: gdk-pixbuf
+Version: 2.42.12
+Depends: gettext, gettext-libintl, glib, vcpkg-tool-meson
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7323b7848ad1ae81bb108a27dcd36b2418bfbb074148917069e82bfd3bfa3d1d
+Description: Image loading library.
+Default-Features: jpeg, png, tiff
+
+Package: gdk-pixbuf
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable JPEG loader (requires libjpeg)
+
+Package: gdk-pixbuf
+Feature: png
+Depends: libpng
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable PNG loader (requires libpng)
+
+Package: gdk-pixbuf
+Feature: tiff
+Depends: tiff
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable TIFF loader (requires libtiff)
